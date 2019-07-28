@@ -1,0 +1,24 @@
+﻿<Window x:Class="SaveMyTime.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SaveMyTime"
+        mc:Ignorable="d"
+        xmlns:ViewModel="clr-namespace:SaveMyTime.Viewmodel"
+        Title="Save My Time" Height="550" Width="450" WindowStartupLocation="CenterScreen" WindowState="Minimized">
+
+    <Window.DataContext>
+        <ViewModel:MainWindowViewModel/>
+    </Window.DataContext>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            
+        </Grid.RowDefinitions>
+    </Grid>
+</Window>
